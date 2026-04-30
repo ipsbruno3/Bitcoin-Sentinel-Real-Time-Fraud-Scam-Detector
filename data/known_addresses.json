@@ -1,0 +1,175 @@
+{
+  "_comment": "Bitcoin Sentinel seed data — publicly documented suspicious addresses from law enforcement disclosures, academic research, and blockchain analytics reports. Sources include OFAC SDN list, FBI seizure affidavits, and peer-reviewed security publications.",
+  "clusters": [
+    {
+      "id": "wannacry_2017",
+      "name": "WannaCry Ransomware 2017",
+      "category": "RANSOMWARE",
+      "description": "Bitcoin wallets used by the WannaCry ransomware campaign (May 2017). Documented in US-CERT Alert TA17-132A and multiple academic studies.",
+      "confidence": 99,
+      "addresses": [
+        {
+          "address": "115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn",
+          "risk_score": 95,
+          "notes": "WannaCry ransom collection wallet #1"
+        },
+        {
+          "address": "12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw",
+          "risk_score": 95,
+          "notes": "WannaCry ransom collection wallet #2"
+        },
+        {
+          "address": "13AM4VW2dhxYgXeQepoHkHSQuy6NgaEb94",
+          "risk_score": 95,
+          "notes": "WannaCry ransom collection wallet #3"
+        }
+      ]
+    },
+    {
+      "id": "lazarus_group",
+      "name": "Lazarus Group (DPRK)",
+      "category": "SANCTIONS",
+      "description": "Addresses attributed to the Lazarus Group (North Korean state-sponsored threat actor) per OFAC SDN List and US DOJ indictments.",
+      "confidence": 95,
+      "addresses": [
+        {
+          "address": "1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v",
+          "risk_score": 100,
+          "notes": "OFAC SDN — Lazarus Group cluster"
+        },
+        {
+          "address": "1FAv2NNbMgqBqM1AX7pcezpDPkeFEFY6ks",
+          "risk_score": 100,
+          "notes": "OFAC SDN — Lazarus Group cluster"
+        }
+      ]
+    },
+    {
+      "id": "bitfinex_hack_2016",
+      "name": "Bitfinex Hack 2016",
+      "category": "FRAUD",
+      "description": "Addresses associated with the 2016 Bitfinex exchange hack (119,756 BTC stolen). Some funds recovered by DOJ in 2022.",
+      "confidence": 98,
+      "addresses": [
+        {
+          "address": "1CGA7KJwokZ1yPZnRBgNUz1JjMmhKMaMHW",
+          "risk_score": 90,
+          "notes": "Bitfinex hack proceeds — DOJ seizure 2022"
+        },
+        {
+          "address": "1CGa3WpJyHvBMiMM9ARTjtSEDYhHbgz7Cz",
+          "risk_score": 90,
+          "notes": "Bitfinex hack proceeds — DOJ seizure 2022"
+        }
+      ]
+    },
+    {
+      "id": "cryptolocker_ransomware",
+      "name": "CryptoLocker Ransomware",
+      "category": "RANSOMWARE",
+      "description": "CryptoLocker ransomware payment infrastructure. Documented in FBI Operation Tovar (2014).",
+      "confidence": 90,
+      "addresses": [
+        {
+          "address": "1AKCjfDVkUBPJkZnpFnhZNsUJCANzrHhEi",
+          "risk_score": 92,
+          "notes": "CryptoLocker payment address — FBI Operation Tovar"
+        }
+      ]
+    },
+    {
+      "id": "silk_road",
+      "name": "Silk Road Darknet Market",
+      "category": "DARKNET",
+      "description": "Addresses associated with Silk Road. Ross Ulbricht convicted 2015; FBI seizure and DOJ forfeiture proceedings are public record.",
+      "confidence": 99,
+      "addresses": [
+        {
+          "address": "1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX",
+          "risk_score": 90,
+          "notes": "Silk Road — public FBI exhibit"
+        }
+      ]
+    },
+    {
+      "id": "alphabay_darknet",
+      "name": "AlphaBay Darknet Market",
+      "category": "DARKNET",
+      "description": "Addresses linked to AlphaBay darknet market. Shut down by law enforcement in July 2017 (Operation Bayonet).",
+      "confidence": 90,
+      "addresses": [
+        {
+          "address": "1BADnfH71mtqB6XNBToPrJ3WPvHh8gVRSM",
+          "risk_score": 88,
+          "notes": "AlphaBay — DOJ forfeiture filing 2017"
+        }
+      ]
+    },
+    {
+      "id": "chipmixer_mixer",
+      "name": "ChipMixer Mixing Service",
+      "category": "MIXER",
+      "description": "ChipMixer Bitcoin mixing service. Taken down by Europol/FBI in March 2023 (laundered ~$3.8B in BTC since 2017).",
+      "confidence": 95,
+      "addresses": [
+        {
+          "address": "1MKTEW6gHnc3HpHMGbLSiHBRRQJY2dnmcP",
+          "risk_score": 78,
+          "notes": "ChipMixer — Europol/FBI action 2023"
+        }
+      ]
+    },
+    {
+      "id": "plustoken_ponzi",
+      "name": "PlusToken Ponzi Scheme",
+      "category": "SCAM",
+      "description": "PlusToken cryptocurrency Ponzi scheme (~$2B scam, China/Asia). Documented by Chainalysis and multiple court filings.",
+      "confidence": 92,
+      "addresses": [
+        {
+          "address": "1EH2FaMjSoZFrYbRj75AudCWbmFLEgU9QK",
+          "risk_score": 88,
+          "notes": "PlusToken — blockchain analytics, court filings 2019"
+        }
+      ]
+    },
+    {
+      "id": "onecoin_fraud",
+      "name": "OneCoin Fraud",
+      "category": "FRAUD",
+      "description": "OneCoin fraud — one of the largest cryptocurrency scams (~$4B). Ruja Ignatova indicted 2019.",
+      "confidence": 90,
+      "addresses": [
+        {
+          "address": "1GdF3MHQPmZBiZhfHFvDxFCPJ3cX5cqBVb",
+          "risk_score": 90,
+          "notes": "OneCoin — US DOJ indictment 2019"
+        }
+      ]
+    },
+    {
+      "id": "known_exchanges",
+      "name": "Known Exchange Hot Wallets",
+      "category": "EXCHANGE",
+      "description": "Publicly documented exchange hot wallet addresses used to reduce false positives. These addresses belong to regulated, custodial exchanges.",
+      "confidence": 80,
+      "addresses": [
+        {
+          "address": "3E5rBxW8LMkVMcEHmJkCXiZfABJoKsJGC6",
+          "risk_score": 10,
+          "notes": "Binance hot wallet — public blockchain attribution"
+        },
+        {
+          "address": "3LYJfcfHPXYJreMsASk2jkn69LWEYKzexb",
+          "risk_score": 10,
+          "notes": "Coinbase cold wallet — public blockchain attribution"
+        },
+        {
+          "address": "3Kzh9qAqVWQhEsfQz7zEQL1EuSx5tyNLNS",
+          "risk_score": 10,
+          "notes": "Kraken hot wallet — public blockchain attribution"
+        }
+      ]
+    }
+  ]
+}
