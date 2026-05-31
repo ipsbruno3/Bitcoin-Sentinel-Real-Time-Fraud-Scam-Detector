@@ -1,0 +1,28 @@
+# Credentials / environment
+.env
+.env.local
+.env.production
+!.env.example
+
+# Partial downloads
+*.part
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

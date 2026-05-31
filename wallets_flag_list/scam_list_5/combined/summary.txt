@@ -1,0 +1,35 @@
+Total unique addresses: 1449
+
+Per-coin counts:
+  ADA      1
+  ALGO     1
+  ARB      1
+  BCH      7
+  BSC      2
+  BSV      1
+  BTG      1
+  DASH     3
+  DGB      1
+  DOGE     7
+  ETC      1
+  ETH      98
+  IOST     1
+  KMD      1
+  LSK      3
+  LTC      14
+  SC       3
+  STRAT    1
+  TRX      303
+  UNKNOWN  1
+  USDC     2
+  USDT     435
+  XBT      563
+  XLM      1
+  XMR      8
+  XRP      2
+  XVG      2
+  ZEC      4
+
+Per-source counts (an address can appear in multiple sources):
+  il_mod_crypto          684
+  ofac_0xB10C            773

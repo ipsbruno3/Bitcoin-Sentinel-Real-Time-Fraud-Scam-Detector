@@ -1,0 +1,2717 @@
+{
+  "summary": {
+    "total_files": 383,
+    "total_address_rows": 38071720,
+    "total_bytes": 1789250396,
+    "by_category": {
+      "Exchanges": {
+        "files": 119,
+        "rows": 14665139,
+        "bytes": 697896453
+      },
+      "Gambling": {
+        "files": 51,
+        "rows": 3128611,
+        "bytes": 147022362
+      },
+      "Old_historic": {
+        "files": 102,
+        "rows": 2507456,
+        "bytes": 117920764
+      },
+      "Pools": {
+        "files": 20,
+        "rows": 87558,
+        "bytes": 4155652
+      },
+      "Services_others": {
+        "files": 91,
+        "rows": 17682956,
+        "bytes": 822255165
+      }
+    }
+  },
+  "files": [
+    {
+      "category": "Exchanges",
+      "wallet": "796.com",
+      "rows": 7848,
+      "bytes": 369486,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "AnxPro.com",
+      "rows": 122166,
+      "bytes": 5742098,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Banx.io-old",
+      "rows": 2652,
+      "bytes": 124875,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Banx.io-old2",
+      "rows": 377,
+      "bytes": 17892,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Banx.io",
+      "rows": 593,
+      "bytes": 28046,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Binance.com-old",
+      "rows": 1,
+      "bytes": 232,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Binance.com",
+      "rows": 295029,
+      "bytes": 15575730,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bit-x.com",
+      "rows": 27937,
+      "bytes": 1354407,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitBargain.co.uk",
+      "rows": 31427,
+      "bytes": 1477128,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitBay.net",
+      "rows": 26014,
+      "bytes": 1230369,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitcoin.de",
+      "rows": 412904,
+      "bytes": 19560249,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitcoinP2P.com.br",
+      "rows": 2,
+      "bytes": 281,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitcoinVietnam.com.vn",
+      "rows": 2276,
+      "bytes": 107164,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitcurex.com",
+      "rows": 4355,
+      "bytes": 205380,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitfinex.com-old",
+      "rows": 2724,
+      "bytes": 128454,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitfinex.com-old2",
+      "rows": 77666,
+      "bytes": 3649584,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitfinex.com",
+      "rows": 3999,
+      "bytes": 188306,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitKonan.com",
+      "rows": 4530,
+      "bytes": 213011,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitso.com",
+      "rows": 1188,
+      "bytes": 56022,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitstamp.net-old",
+      "rows": 137995,
+      "bytes": 6487231,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bitstamp.net",
+      "rows": 478474,
+      "bytes": 22508555,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bittrex.com",
+      "rows": 1649599,
+      "bytes": 77699628,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitVC.com",
+      "rows": 5024,
+      "bytes": 237188,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BitZlato.com",
+      "rows": 256311,
+      "bytes": 12123674,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bleutrade.com",
+      "rows": 117246,
+      "bytes": 5511189,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BlockTrades.us",
+      "rows": 34461,
+      "bytes": 1622919,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTC-e.com-old",
+      "rows": 348489,
+      "bytes": 16407609,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTC-e.com-output",
+      "rows": 3308,
+      "bytes": 155533,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTC-e.com",
+      "rows": 307511,
+      "bytes": 14476348,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Btc38.com",
+      "rows": 7585,
+      "bytes": 358133,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTCC.com-old",
+      "rows": 35495,
+      "bytes": 1667170,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTCC.com-old2",
+      "rows": 23789,
+      "bytes": 1117830,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTCC.com",
+      "rows": 63671,
+      "bytes": 3004867,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BtcMarkets.net",
+      "rows": 15260,
+      "bytes": 716980,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BtcTrade.com",
+      "rows": 83724,
+      "bytes": 3951563,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bter.com-cold",
+      "rows": 1572,
+      "bytes": 74503,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bter.com-old",
+      "rows": 24445,
+      "bytes": 1149902,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bter.com-old2",
+      "rows": 13972,
+      "bytes": 657359,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bter.com-old3",
+      "rows": 10195,
+      "bytes": 480825,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Bter.com",
+      "rows": 79712,
+      "bytes": 3751891,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTradeAustralia.com-incoming",
+      "rows": 66,
+      "bytes": 3299,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BTradeAustralia.com",
+      "rows": 12,
+      "bytes": 763,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "BX.in.th",
+      "rows": 48571,
+      "bytes": 2305763,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "C-Cex.com-old",
+      "rows": 5576,
+      "bytes": 262184,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "C-Cex.com",
+      "rows": 35433,
+      "bytes": 1665724,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CampBX.com-old",
+      "rows": 20730,
+      "bytes": 974080,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CampBX.com",
+      "rows": 1802,
+      "bytes": 84802,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Cavirtex.com",
+      "rows": 53102,
+      "bytes": 2494711,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Ccedk.com",
+      "rows": 1040,
+      "bytes": 49078,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Cex.io",
+      "rows": 238253,
+      "bytes": 11208070,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "ChBtc.com",
+      "rows": 2744,
+      "bytes": 129382,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CleverCoin.com",
+      "rows": 2614,
+      "bytes": 123007,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinArch.com",
+      "rows": 2713,
+      "bytes": 127695,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Coinbroker.io",
+      "rows": 668,
+      "bytes": 31583,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinCafe.com",
+      "rows": 4576,
+      "bytes": 215304,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinChimp.com",
+      "rows": 1704,
+      "bytes": 80400,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Coingi.com",
+      "rows": 2841,
+      "bytes": 133611,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinHako.com",
+      "rows": 42081,
+      "bytes": 2010935,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Coinimal.com",
+      "rows": 1,
+      "bytes": 220,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Coinmate.io",
+      "rows": 5297,
+      "bytes": 249371,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinMotion.com",
+      "rows": 72557,
+      "bytes": 3711222,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Coinomat.com",
+      "rows": 5481,
+      "bytes": 257737,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Coins-e.com",
+      "rows": 11221,
+      "bytes": 527466,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinSpot.com.au",
+      "rows": 245145,
+      "bytes": 11531820,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "CoinTrader.net",
+      "rows": 1497,
+      "bytes": 70520,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Cryptonit.net",
+      "rows": 1098,
+      "bytes": 51765,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Cryptsy.com",
+      "rows": 393973,
+      "bytes": 18521472,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "EmpoEX.com",
+      "rows": 741,
+      "bytes": 34994,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Exchange-Credit.ru",
+      "rows": 1,
+      "bytes": 227,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Exchanging.ir",
+      "rows": 5,
+      "bytes": 421,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Exmo.com",
+      "rows": 8430,
+      "bytes": 399178,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "FoxBit.com.br-2",
+      "rows": 382,
+      "bytes": 18145,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "FoxBit.com.br-cold-old",
+      "rows": 219,
+      "bytes": 10483,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "FoxBit.com.br-cold",
+      "rows": 3065,
+      "bytes": 144245,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "FoxBit.com.br",
+      "rows": 4,
+      "bytes": 366,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "FYBSG.com",
+      "rows": 20504,
+      "bytes": 982361,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Gatecoin.com-2",
+      "rows": 117,
+      "bytes": 5670,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Gatecoin.com",
+      "rows": 1594,
+      "bytes": 75140,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "HappyCoins.com",
+      "rows": 6831,
+      "bytes": 321837,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Hashnest.com",
+      "rows": 85590,
+      "bytes": 4025322,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "HitBtc.com-old",
+      "rows": 7603,
+      "bytes": 357660,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "HitBtc.com",
+      "rows": 187223,
+      "bytes": 8803501,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Huobi.com-2",
+      "rows": 1341373,
+      "bytes": 65079363,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Huobi.com",
+      "rows": 29242,
+      "bytes": 1378503,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Igot.com",
+      "rows": 11220,
+      "bytes": 527817,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Indacoin.com",
+      "rows": 2221,
+      "bytes": 104658,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Korbit.co.kr",
+      "rows": 3545,
+      "bytes": 167423,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Kraken.com-old",
+      "rows": 114464,
+      "bytes": 5385016,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Kraken.com",
+      "rows": 2166044,
+      "bytes": 104744904,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "LakeBTC.com",
+      "rows": 6046,
+      "bytes": 284160,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "LiteBit.eu",
+      "rows": 7109,
+      "bytes": 334018,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "LocalBitcoins.com-old",
+      "rows": 775779,
+      "bytes": 36444601,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "LocalBitcoins.com",
+      "rows": 523338,
+      "bytes": 24584187,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Luno.com",
+      "rows": 1153669,
+      "bytes": 54415583,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "MaiCoin.com",
+      "rows": 57770,
+      "bytes": 2718664,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Matbea.com",
+      "rows": 47296,
+      "bytes": 2223773,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "MercadoBitcoin.com.br",
+      "rows": 448373,
+      "bytes": 21685235,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "MeXBT.com",
+      "rows": 4232,
+      "bytes": 199072,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "OKCoin.com-2",
+      "rows": 80987,
+      "bytes": 3808861,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "OKCoin.com",
+      "rows": 78119,
+      "bytes": 3682186,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "OrderBook.net",
+      "rows": 4377,
+      "bytes": 205973,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Paxful.com",
+      "rows": 55248,
+      "bytes": 2597141,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Poloniex.com",
+      "rows": 1082429,
+      "bytes": 50991940,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "QuadrigaCX.com",
+      "rows": 4517,
+      "bytes": 212363,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SimpleCoin.cz-old",
+      "rows": 1,
+      "bytes": 225,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SimpleCoin.cz-old2",
+      "rows": 8,
+      "bytes": 581,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SimpleCoin.cz-old3",
+      "rows": 4,
+      "bytes": 382,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SimpleCoin.cz-old4",
+      "rows": 12,
+      "bytes": 751,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SimpleCoin.cz-old5",
+      "rows": 7,
+      "bytes": 520,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SimpleCoin.cz",
+      "rows": 7,
+      "bytes": 534,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "SpectroCoin.com",
+      "rows": 4684,
+      "bytes": 223652,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "TheRockTrading.com-old",
+      "rows": 18985,
+      "bytes": 917370,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "TheRockTrading.com",
+      "rows": 19810,
+      "bytes": 931550,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "UrduBit.com-cold",
+      "rows": 1,
+      "bytes": 235,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "UseCryptos.com",
+      "rows": 700,
+      "bytes": 33134,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Vaultoro.com",
+      "rows": 13713,
+      "bytes": 644541,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "Vircurex.com",
+      "rows": 33442,
+      "bytes": 1571740,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "VirWoX.com",
+      "rows": 68662,
+      "bytes": 3226901,
+      "issue": null
+    },
+    {
+      "category": "Exchanges",
+      "wallet": "YoBit.net",
+      "rows": 263074,
+      "bytes": 12377751,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "777Coin.com",
+      "rows": 5966,
+      "bytes": 280542,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "999Dice.com",
+      "rows": 813818,
+      "bytes": 38227711,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "AnoniBet.com",
+      "rows": 15965,
+      "bytes": 750090,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BetChain.com-old",
+      "rows": 1508,
+      "bytes": 71045,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Betcoin.ag-old",
+      "rows": 4358,
+      "bytes": 205288,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Betcoin.ag",
+      "rows": 25960,
+      "bytes": 1220757,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Betcoin.tm",
+      "rows": 4292,
+      "bytes": 202203,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BetMoose.com",
+      "rows": 4159,
+      "bytes": 195561,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitcoinPokerTables.com",
+      "rows": 293,
+      "bytes": 13955,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitcoinVideoCasino.com-old",
+      "rows": 21339,
+      "bytes": 1003809,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitcoinVideoCasino.com-old2",
+      "rows": 17365,
+      "bytes": 816552,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitcoinVideoCasino.com",
+      "rows": 8032,
+      "bytes": 377773,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitStarz.com",
+      "rows": 1076,
+      "bytes": 50962,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitZillions.com",
+      "rows": 3609,
+      "bytes": 170230,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BitZino.com",
+      "rows": 78849,
+      "bytes": 3705811,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "BTCOracle.com",
+      "rows": 9122,
+      "bytes": 428603,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "CloudBet.com",
+      "rows": 136538,
+      "bytes": 6430084,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "CoinGaming.io",
+      "rows": 659822,
+      "bytes": 30987861,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Coinichiwa.com",
+      "rows": 4338,
+      "bytes": 204331,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Coinroll.com",
+      "rows": 22304,
+      "bytes": 1048222,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "CoinRoyale.com-old",
+      "rows": 846,
+      "bytes": 39971,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "CoinRoyale.com-old2",
+      "rows": 1182,
+      "bytes": 55731,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "CoinRoyale.com",
+      "rows": 953,
+      "bytes": 44969,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Crypto-Games.net",
+      "rows": 18489,
+      "bytes": 869193,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "DiceCoin.io",
+      "rows": 390,
+      "bytes": 18491,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "DiceNow.com",
+      "rows": 648,
+      "bytes": 30605,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "FairProof.com",
+      "rows": 729,
+      "bytes": 34440,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "FortuneJack.com",
+      "rows": 120563,
+      "bytes": 5666556,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "JetWin.com",
+      "rows": 3840,
+      "bytes": 180494,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "MineField.BitcoinLab.org",
+      "rows": 279,
+      "bytes": 13290,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "NitrogenSports.eu",
+      "rows": 197164,
+      "bytes": 9266151,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Peerbet.org",
+      "rows": 7857,
+      "bytes": 369457,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "PocketDice.io",
+      "rows": 124987,
+      "bytes": 5875946,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "PrimeDice.com-old",
+      "rows": 8030,
+      "bytes": 377680,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "PrimeDice.com-old2",
+      "rows": 42301,
+      "bytes": 1988743,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "PrimeDice.com-old3",
+      "rows": 46051,
+      "bytes": 2165454,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "PrimeDice.com-old4",
+      "rows": 53775,
+      "bytes": 2527883,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "PrimeDice.com",
+      "rows": 54640,
+      "bytes": 2568632,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Rollin.io",
+      "rows": 74602,
+      "bytes": 3505533,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SafeDice.com",
+      "rows": 35573,
+      "bytes": 1671597,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Satoshi-Karoshi.com-old",
+      "rows": 1941,
+      "bytes": 91680,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "Satoshi-Karoshi.com",
+      "rows": 1020,
+      "bytes": 48186,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SatoshiBet.com",
+      "rows": 32701,
+      "bytes": 1537005,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SatoshiCircle.com",
+      "rows": 4996,
+      "bytes": 234927,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SatoshiDice.com-original",
+      "rows": 1140,
+      "bytes": 55839,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SatoshiDice.com",
+      "rows": 42796,
+      "bytes": 2011098,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SatoshiMines.com",
+      "rows": 269350,
+      "bytes": 12654806,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SatoshiRoulette.com",
+      "rows": 10901,
+      "bytes": 512329,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SecondsTrade.com",
+      "rows": 96890,
+      "bytes": 4550421,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "SwCPoker.eu",
+      "rows": 32017,
+      "bytes": 1504094,
+      "issue": null
+    },
+    {
+      "category": "Gambling",
+      "wallet": "YABTCL.com",
+      "rows": 3247,
+      "bytes": 159771,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "10xBitco.in",
+      "rows": 473,
+      "bytes": 22446,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "50BTC.com-old",
+      "rows": 1,
+      "bytes": 220,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "50BTC.com-old2",
+      "rows": 316,
+      "bytes": 15016,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "50BTC.com-old3",
+      "rows": 204,
+      "bytes": 9754,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "50BTC.com",
+      "rows": 53,
+      "bytes": 2666,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "AbraxasMarket",
+      "rows": 119119,
+      "bytes": 5596343,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "ActionCrypto.com",
+      "rows": 20,
+      "bytes": 1158,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "AdmiralCoin.com",
+      "rows": 1693,
+      "bytes": 79750,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "AgoraMarket",
+      "rows": 498001,
+      "bytes": 23406855,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "AllCoin.com",
+      "rows": 6310,
+      "bytes": 297137,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "AllCrypt.com",
+      "rows": 4775,
+      "bytes": 224706,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "ASICMiner",
+      "rows": 15,
+      "bytes": 889,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BabylonMarket",
+      "rows": 1471,
+      "bytes": 69326,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BetcoinDice.tm",
+      "rows": 77,
+      "bytes": 4190,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Betcoins.net",
+      "rows": 7479,
+      "bytes": 351459,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BetsOfBitco.in",
+      "rows": 3861,
+      "bytes": 181603,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Birwo.com-old",
+      "rows": 377,
+      "bytes": 17929,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BitAces.me-old",
+      "rows": 4352,
+      "bytes": 204637,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BitAces.me",
+      "rows": 12456,
+      "bytes": 585459,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcash.cz",
+      "rows": 1805,
+      "bytes": 84986,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcoin-24.com-old-hotwallet",
+      "rows": 1,
+      "bytes": 246,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcoin-24.com-old",
+      "rows": 5907,
+      "bytes": 277829,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcoin-24.com",
+      "rows": 112,
+      "bytes": 5458,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcoin-Roulette.com",
+      "rows": 6477,
+      "bytes": 304415,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcoinica.com-old",
+      "rows": 2636,
+      "bytes": 124112,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitcoinica.com",
+      "rows": 1643,
+      "bytes": 77430,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BitcoinWeBank.com",
+      "rows": 1244,
+      "bytes": 58657,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BitElfin.com",
+      "rows": 4451,
+      "bytes": 209218,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BitMillions.com",
+      "rows": 170,
+      "bytes": 8299,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Bitmit.net",
+      "rows": 15757,
+      "bytes": 740454,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BIToomBa.com",
+      "rows": 3121,
+      "bytes": 146980,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BitYes.com",
+      "rows": 3086,
+      "bytes": 145136,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BlackBankMarket",
+      "rows": 50878,
+      "bytes": 2391612,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BlueSkyMarketplace",
+      "rows": 18997,
+      "bytes": 893208,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Brawker.com",
+      "rows": 499,
+      "bytes": 23627,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BtcDice.com",
+      "rows": 26643,
+      "bytes": 1251398,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BtcExchange.ro",
+      "rows": 1699,
+      "bytes": 79990,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BTCGuild.com",
+      "rows": 7865,
+      "bytes": 369586,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Btcst.com-pirateat40",
+      "rows": 1246,
+      "bytes": 58787,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "BTCt.com",
+      "rows": 1178,
+      "bytes": 55685,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CannabisRoadMarket",
+      "rows": 2829,
+      "bytes": 133878,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Chainroll.com-old",
+      "rows": 915,
+      "bytes": 43303,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Chainroll.com",
+      "rows": 400,
+      "bytes": 18965,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CloudHashing.com",
+      "rows": 572,
+      "bytes": 27054,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Coin-Swap.net",
+      "rows": 17705,
+      "bytes": 833620,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Coin-Sweeper.com",
+      "rows": 1992,
+      "bytes": 93810,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Coin.mx",
+      "rows": 6242,
+      "bytes": 293745,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CoinMkt.com",
+      "rows": 2575,
+      "bytes": 121138,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Comkort.com",
+      "rows": 2645,
+      "bytes": 124594,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CrimeNet.biz",
+      "rows": 1,
+      "bytes": 231,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CrimeNetwork.biz",
+      "rows": 295,
+      "bytes": 14056,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CrimeNetwork.cc-old",
+      "rows": 643,
+      "bytes": 30389,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CrimeNetwork.cc-old2",
+      "rows": 131,
+      "bytes": 6355,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CrimeNetwork.cc-old3",
+      "rows": 131,
+      "bytes": 6334,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CrimeNetwork.cc",
+      "rows": 511,
+      "bytes": 24175,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CryptcoMiner.com",
+      "rows": 1,
+      "bytes": 231,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Crypto-Trade.com",
+      "rows": 9512,
+      "bytes": 447259,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CryptoBounty.com",
+      "rows": 950,
+      "bytes": 44820,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "CryptoLocker",
+      "rows": 968,
+      "bytes": 45782,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Cryptomine.io",
+      "rows": 1,
+      "bytes": 229,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Cryptorush.in",
+      "rows": 9165,
+      "bytes": 430820,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "DaDice.com",
+      "rows": 1176,
+      "bytes": 55521,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Dagensia.eu",
+      "rows": 643,
+      "bytes": 29870,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "DeepBit.net",
+      "rows": 2,
+      "bytes": 276,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Dgex.com-old",
+      "rows": 1082,
+      "bytes": 51035,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Dgex.com",
+      "rows": 195,
+      "bytes": 9353,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "DiceBitco.in",
+      "rows": 2355,
+      "bytes": 111008,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "DiceOnCrack.com",
+      "rows": 28,
+      "bytes": 1566,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Dispenser.tf",
+      "rows": 2,
+      "bytes": 268,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Europex.eu",
+      "rows": 527,
+      "bytes": 24962,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "EveryDice.com",
+      "rows": 515,
+      "bytes": 24415,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "EvolutionMarket",
+      "rows": 420615,
+      "bytes": 19753549,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Ice-Dice.com",
+      "rows": 2760,
+      "bytes": 129865,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Inputs.io",
+      "rows": 14566,
+      "bytes": 686989,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Instawallet.org",
+      "rows": 109151,
+      "bytes": 5152782,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Just-Dice.com-cold",
+      "rows": 1,
+      "bytes": 232,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Just-Dice.com-cold2",
+      "rows": 1,
+      "bytes": 226,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Just-Dice.com-cold3",
+      "rows": 1,
+      "bytes": 227,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Just-Dice.com",
+      "rows": 978,
+      "bytes": 46126,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Justcoin.com",
+      "rows": 36349,
+      "bytes": 1707868,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Leancy.com",
+      "rows": 1,
+      "bytes": 228,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "LuckyB.it",
+      "rows": 7,
+      "bytes": 529,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "MasterXchange.com",
+      "rows": 4605,
+      "bytes": 216561,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "McxNOW.com",
+      "rows": 35453,
+      "bytes": 1667398,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "MiddleEarthMarketplace",
+      "rows": 34149,
+      "bytes": 1607629,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "MintPal.com",
+      "rows": 85634,
+      "bytes": 4025500,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "MPEx.co",
+      "rows": 604,
+      "bytes": 28582,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "MyBitcoin.com",
+      "rows": 4909,
+      "bytes": 231051,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "PandoraOpenMarket",
+      "rows": 55757,
+      "bytes": 2619407,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "PinballCoin.com",
+      "rows": 12,
+      "bytes": 771,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Playt.in",
+      "rows": 1812,
+      "bytes": 85636,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "PocketRocketsCasino.eu",
+      "rows": 1189,
+      "bytes": 56580,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "Polmine.pl",
+      "rows": 280,
+      "bytes": 13337,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "PonziCoin.co",
+      "rows": 380,
+      "bytes": 18023,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "SealsWithClubs.eu",
+      "rows": 30965,
+      "bytes": 1457382,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "SheepMarketplace",
+      "rows": 53639,
+      "bytes": 2520280,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "SilkRoad2Market",
+      "rows": 350036,
+      "bytes": 16490985,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "SilkRoadMarketplace",
+      "rows": 372787,
+      "bytes": 17521587,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "SmenarnaBitcoin.cz",
+      "rows": 512,
+      "bytes": 24219,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "SuzukiDice.com",
+      "rows": 341,
+      "bytes": 16242,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "UpDown.BT",
+      "rows": 665,
+      "bytes": 31529,
+      "issue": null
+    },
+    {
+      "category": "Old_historic",
+      "wallet": "VaultOfSatoshi.com",
+      "rows": 8120,
+      "bytes": 381726,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "AntPool.com-old",
+      "rows": 1,
+      "bytes": 223,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "AntPool.com-old2",
+      "rows": 176,
+      "bytes": 8463,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "AntPool.com",
+      "rows": 670,
+      "bytes": 31674,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "Bitfury.org",
+      "rows": 75,
+      "bytes": 3694,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "BitMinter.com",
+      "rows": 447,
+      "bytes": 21252,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "BTCCPool",
+      "rows": 65125,
+      "bytes": 3081042,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "BW.com",
+      "rows": 402,
+      "bytes": 19060,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "EclipseMC.com-old",
+      "rows": 588,
+      "bytes": 27817,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "EclipseMC.com-old2",
+      "rows": 8,
+      "bytes": 555,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "EclipseMC.com-old3",
+      "rows": 4,
+      "bytes": 366,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "EclipseMC.com",
+      "rows": 3,
+      "bytes": 320,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "Eligius.st",
+      "rows": 1032,
+      "bytes": 48776,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "GHash.io",
+      "rows": 5934,
+      "bytes": 278876,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "Kano.is-old",
+      "rows": 22,
+      "bytes": 1223,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "Kano.is",
+      "rows": 1,
+      "bytes": 214,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "KnCMiner.com",
+      "rows": 297,
+      "bytes": 14148,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "SlushPool.com-old",
+      "rows": 963,
+      "bytes": 45405,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "SlushPool.com-old2",
+      "rows": 1389,
+      "bytes": 65460,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "SlushPool.com",
+      "rows": 10407,
+      "bytes": 506256,
+      "issue": null
+    },
+    {
+      "category": "Pools",
+      "wallet": "Telco214",
+      "rows": 14,
+      "bytes": 828,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "AlphaBayMarket-old",
+      "rows": 7151,
+      "bytes": 335989,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "AlphaBayMarket",
+      "rows": 189776,
+      "bytes": 8922608,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Bitbond.com",
+      "rows": 6790,
+      "bytes": 320020,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitClix.com",
+      "rows": 2023,
+      "bytes": 95170,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitcoinFog",
+      "rows": 244975,
+      "bytes": 11508797,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitcoinWallet.com",
+      "rows": 93213,
+      "bytes": 4425805,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitLaunder.com",
+      "rows": 190,
+      "bytes": 9102,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitNZ.com",
+      "rows": 2618,
+      "bytes": 123162,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitoEX.com",
+      "rows": 87424,
+      "bytes": 4131463,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitPay.com-old",
+      "rows": 166077,
+      "bytes": 7854695,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitPay.com-old2",
+      "rows": 172413,
+      "bytes": 8106876,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitPay.com-old3",
+      "rows": 161984,
+      "bytes": 7607107,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BitPay.com",
+      "rows": 186009,
+      "bytes": 8735298,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BTCJam.com",
+      "rows": 82695,
+      "bytes": 3887012,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BTCLend.org",
+      "rows": 1713,
+      "bytes": 80795,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "BTCPop.co",
+      "rows": 3485,
+      "bytes": 164194,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Bylls.com",
+      "rows": 1314,
+      "bytes": 61889,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "ChangeTip.com",
+      "rows": 15905,
+      "bytes": 747195,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinApult.com-old",
+      "rows": 94,
+      "bytes": 4635,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinApult.com",
+      "rows": 15495,
+      "bytes": 728647,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinBox.me",
+      "rows": 1,
+      "bytes": 226,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinJar.com",
+      "rows": 207679,
+      "bytes": 9757444,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinKite.com",
+      "rows": 115760,
+      "bytes": 5440020,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinPayments.net",
+      "rows": 9576784,
+      "bytes": 440652835,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinURL.com",
+      "rows": 2998,
+      "bytes": 141001,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CoinWorker.com",
+      "rows": 2,
+      "bytes": 270,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CrimeNetwork.co-old",
+      "rows": 5840,
+      "bytes": 274656,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CrimeNetwork.co",
+      "rows": 16155,
+      "bytes": 759468,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Cryptonator.com-old",
+      "rows": 1401,
+      "bytes": 66270,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Cryptonator.com",
+      "rows": 999006,
+      "bytes": 46987965,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Cryptopay.me-old",
+      "rows": 1681,
+      "bytes": 79322,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Cryptopay.me",
+      "rows": 409241,
+      "bytes": 19251007,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "CryptoStocks.com",
+      "rows": 12494,
+      "bytes": 587447,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Cubits.com",
+      "rows": 1630483,
+      "bytes": 76625717,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "DoctorDMarket",
+      "rows": 5762,
+      "bytes": 270842,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "ePay.info",
+      "rows": 9136,
+      "bytes": 429646,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "FaucetBOX.com",
+      "rows": 21684,
+      "bytes": 1020995,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Genesis-Mining.com",
+      "rows": 8938,
+      "bytes": 420084,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "GermanPlazaMarket",
+      "rows": 4629,
+      "bytes": 218490,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "GoCelery.com",
+      "rows": 1948,
+      "bytes": 91777,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "GreenRoadMarket",
+      "rows": 965,
+      "bytes": 45508,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HaoBTC.com",
+      "rows": 50963,
+      "bytes": 2430960,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old",
+      "rows": 2459,
+      "bytes": 115687,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old10",
+      "rows": 7605,
+      "bytes": 357369,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old11",
+      "rows": 1805,
+      "bytes": 84949,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old12",
+      "rows": 8006,
+      "bytes": 376272,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old13",
+      "rows": 6736,
+      "bytes": 316586,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old14",
+      "rows": 8767,
+      "bytes": 412005,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old15",
+      "rows": 7977,
+      "bytes": 374908,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old16",
+      "rows": 10357,
+      "bytes": 486629,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old17",
+      "rows": 8444,
+      "bytes": 396806,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old18",
+      "rows": 12118,
+      "bytes": 569376,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old19",
+      "rows": 9274,
+      "bytes": 435794,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old2",
+      "rows": 8882,
+      "bytes": 417294,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old20",
+      "rows": 8751,
+      "bytes": 411215,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old21",
+      "rows": 7302,
+      "bytes": 343168,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old22",
+      "rows": 5483,
+      "bytes": 257683,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old23",
+      "rows": 7172,
+      "bytes": 337069,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old24",
+      "rows": 6255,
+      "bytes": 293976,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old25",
+      "rows": 7088,
+      "bytes": 333121,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old26",
+      "rows": 5188,
+      "bytes": 243883,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old27",
+      "rows": 10264,
+      "bytes": 482283,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old28",
+      "rows": 9430,
+      "bytes": 443131,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old29",
+      "rows": 5035,
+      "bytes": 236694,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old3",
+      "rows": 6179,
+      "bytes": 290351,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old30",
+      "rows": 6853,
+      "bytes": 322068,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old31",
+      "rows": 5253,
+      "bytes": 246891,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old32",
+      "rows": 3937,
+      "bytes": 185081,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old33",
+      "rows": 10601,
+      "bytes": 498056,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old34",
+      "rows": 10837,
+      "bytes": 509132,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old4",
+      "rows": 9666,
+      "bytes": 454155,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old5",
+      "rows": 3356,
+      "bytes": 157784,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old6",
+      "rows": 6019,
+      "bytes": 282885,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old7",
+      "rows": 6356,
+      "bytes": 298740,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old8",
+      "rows": 2848,
+      "bytes": 133982,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer-old9",
+      "rows": 8370,
+      "bytes": 393321,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HelixMixer",
+      "rows": 1443,
+      "bytes": 67941,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "HolyTransaction.com",
+      "rows": 112067,
+      "bytes": 5352114,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Loanbase.com",
+      "rows": 22597,
+      "bytes": 1062332,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "MoonBit.co.in",
+      "rows": 51200,
+      "bytes": 2416689,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "NucleusMarket",
+      "rows": 164860,
+      "bytes": 7818872,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "OkLink.com",
+      "rows": 30187,
+      "bytes": 1420827,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Paymium.com",
+      "rows": 25174,
+      "bytes": 1182921,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Purse.io",
+      "rows": 32824,
+      "bytes": 1543124,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "SecureVPN.to-old",
+      "rows": 22,
+      "bytes": 1233,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "SecureVPN.to",
+      "rows": 35,
+      "bytes": 1872,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "StrongCoin.com-fee",
+      "rows": 3,
+      "bytes": 329,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Vic-Socks.to",
+      "rows": 125,
+      "bytes": 6083,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "VIP72.com",
+      "rows": 287684,
+      "bytes": 13510046,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "WatchMyBit.com",
+      "rows": 614,
+      "bytes": 29093,
+      "issue": null
+    },
+    {
+      "category": "Services_others",
+      "wallet": "Xapo.com",
+      "rows": 2184554,
+      "bytes": 102940936,
+      "issue": null
+    }
+  ]
+}
