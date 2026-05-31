@@ -45,8 +45,9 @@ ETHERSCAN_URL = "https://api.etherscan.io/v2/api"  # V2 endpoint
 ETHERSCAN_CHAIN_ID = 1  # Ethereum mainnet
 OUTPUT_FILE = "banned_addresses_unified_etherscan.json"
 
-MAX_WORKERS = 6
+MAX_WORKERS = 2        # free tier: 3 req/s max — 2 workers + sleep keeps it safe
 MAX_RETRIES = 5
+RATE_SLEEP = 0.4       # seconds between requests (≤ 2.5 req/s, under the 3/s cap)
 CHUNK_SIZE = 100_000   # block range per request (~2 weeks of blocks)
 
 # Approximate deployment block for each contract (start of scan)
@@ -73,9 +74,9 @@ CONTRACTS = {
     },
 }
 
-# Compute topic0 hashes once at startup
+# Compute topic0 hashes once at startup — Web3.to_hex ensures 0x prefix
 for cfg in CONTRACTS.values():
-    cfg["topic0"] = Web3.keccak(text=cfg["event"]).hex()
+    cfg["topic0"] = Web3.to_hex(Web3.keccak(text=cfg["event"]))
 
 
 # ── Etherscan API helpers ─────────────────────────────────────────────────────
@@ -86,6 +87,7 @@ def _call(params: dict) -> dict:
         params["apikey"] = ETHERSCAN_API_KEY
     last_err: Optional[Exception] = None
     for attempt in range(1, MAX_RETRIES + 1):
+        time.sleep(RATE_SLEEP)
         try:
             r = requests.get(ETHERSCAN_URL, params=params, proxies=PROXIES, timeout=30)
             r.raise_for_status()
