@@ -19,12 +19,18 @@ import re
 import sys
 import urllib.request
 from collections import defaultdict
+from datetime import datetime
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT         = os.path.dirname(os.path.abspath(__file__))
 OFAC_DIR     = os.path.join(ROOT, "ofac")
 OS_DIR       = os.path.join(ROOT, "opensanctions")
-COMBINED_DIR = os.path.join(ROOT, "combined")
-for d in (OFAC_DIR, OS_DIR, COMBINED_DIR):
+SNAPSHOTS_DIR = os.path.join(ROOT, "snapshots")
+
+# Timestamped output dir for this run — preserves history across updates
+RUN_TS       = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+COMBINED_DIR = os.path.join(SNAPSHOTS_DIR, RUN_TS)
+
+for d in (OFAC_DIR, OS_DIR, SNAPSHOTS_DIR, COMBINED_DIR):
     os.makedirs(d, exist_ok=True)
 
 OFAC_COINS = ["ARB","BCH","BSC","BSV","BTG","DASH","ETC","ETH","LTC","TRX",
@@ -214,6 +220,16 @@ def main() -> int:
     if not skip_download:
         fetch_all()
     merge()
+
+    # Mirror the snapshot to snapshots/latest/ for easy access
+    import shutil
+    latest = os.path.join(SNAPSHOTS_DIR, "latest")
+    if os.path.isdir(latest):
+        shutil.rmtree(latest)
+    shutil.copytree(COMBINED_DIR, latest)
+
+    print(f"\nSnapshot saved to: snapshots/{RUN_TS}/")
+    print(f"Latest updated:    snapshots/latest/")
     return 0
 
 

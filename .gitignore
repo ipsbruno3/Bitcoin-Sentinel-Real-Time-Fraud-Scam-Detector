@@ -23,6 +23,9 @@ node_modules/
 # Claude Code
 .claude/
 
+# Generated snapshots (regenerable — tracked by run timestamp locally)
+wallets_flag_list/scam_list_5/snapshots/
+
 # OS
 .DS_Store
 Thumbs.db
