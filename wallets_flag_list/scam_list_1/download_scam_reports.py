@@ -9,7 +9,7 @@ import requests
 PROXY = os.environ.get("WEBSHARE_PROXY_URL", "")
 BASE_URL = "https://api.checkcryptoaddress.com/scam-reports"
 OUTPUT_FILE = "scam_reports_all.json"
-WORKERS = 16
+WORKERS = 1
 MAX_RETRIES = 5
 
 HEADERS = {
