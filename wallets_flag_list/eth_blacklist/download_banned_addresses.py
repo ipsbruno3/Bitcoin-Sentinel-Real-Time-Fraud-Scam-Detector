@@ -37,7 +37,8 @@ ETHERSCAN_API_KEY = os.environ.get("ETHERSCAN_API_KEY", "")
 PROXY_URL = os.environ.get("WEBSHARE_PROXY_URL", "")
 PROXIES = {"http": PROXY_URL, "https": PROXY_URL} if PROXY_URL else None
 
-ETHERSCAN_URL = "https://api.etherscan.io/api"
+ETHERSCAN_URL = "https://api.etherscan.io/v2/api"  # V2 endpoint
+ETHERSCAN_CHAIN_ID = 1  # Ethereum mainnet
 OUTPUT_FILE = "banned_addresses_unified.json"
 
 MAX_WORKERS = 6
@@ -76,6 +77,7 @@ for cfg in CONTRACTS.values():
 # ── Etherscan API helpers ─────────────────────────────────────────────────────
 
 def _call(params: dict) -> dict:
+    params["chainid"] = ETHERSCAN_CHAIN_ID
     if ETHERSCAN_API_KEY:
         params["apikey"] = ETHERSCAN_API_KEY
     last_err: Optional[Exception] = None
