@@ -10,7 +10,7 @@ mainnet using the Etherscan getLogs API, decodes the banned address from the
 event topic, and writes a unified JSON file.
 
 Requirements:
-    pip install requests web3
+    pip install requests web3 python-dotenv
 
 Environment variables:
     ETHERSCAN_API_KEY   – free key at https://etherscan.io/myapikey
@@ -29,7 +29,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 
 import requests
+from dotenv import load_dotenv
 from web3 import Web3
+
+# Load .env from this file's directory, then from project root (two levels up)
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+load_dotenv(os.path.join(os.path.dirname(__file__), "..", "..", ".env"))
 
 # ── configuration ─────────────────────────────────────────────────────────────
 
