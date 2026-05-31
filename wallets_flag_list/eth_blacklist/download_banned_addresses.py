@@ -39,7 +39,7 @@ PROXIES = {"http": PROXY_URL, "https": PROXY_URL} if PROXY_URL else None
 
 ETHERSCAN_URL = "https://api.etherscan.io/v2/api"  # V2 endpoint
 ETHERSCAN_CHAIN_ID = 1  # Ethereum mainnet
-OUTPUT_FILE = "banned_addresses_unified.json"
+OUTPUT_FILE = "banned_addresses_unified_etherscan.json"
 
 MAX_WORKERS = 6
 MAX_RETRIES = 5
