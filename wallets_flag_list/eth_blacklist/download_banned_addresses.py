@@ -29,12 +29,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 
 import requests
-from dotenv import load_dotenv
+from dotenv import find_dotenv, load_dotenv
 from web3 import Web3
 
-# Load .env from this file's directory, then from project root (two levels up)
-load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
-load_dotenv(os.path.join(os.path.dirname(__file__), "..", "..", ".env"))
+# Walk up from CWD until a .env file is found (works regardless of where script is run from)
+load_dotenv(find_dotenv(usecwd=True))
 
 # ── configuration ─────────────────────────────────────────────────────────────
 
